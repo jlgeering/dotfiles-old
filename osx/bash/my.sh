@@ -13,10 +13,10 @@ export PATH="/usr/local/heroku/bin:$PATH"
 # fi
 [ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
 
-export GIT_PS1_SHOWDIRTYSTATE=true
+GIT_PS1_SHOWDIRTYSTATE=true
 #export GIT_PS1_SHOWUNTRACKEDFILES=true
-export GIT_PS1_SHOWUPSTREAM="auto"
-export GIT_PS1_SHOWCOLORHINTS=true
+GIT_PS1_SHOWUPSTREAM="auto"
+GIT_PS1_SHOWCOLORHINTS=true
 
 # simple prompt
 #PS1="\w $ "
